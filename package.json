@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "husky": "^8.0.1",
+    "prettier": "2.7.0"
+  },
+  "name": "recettetp",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean-html": "npx prettier --write *.html",
+    "prettier": "npx prettier --write .",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fortunehugo/recettetp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fortunehugo/recettetp/issues"
+  },
+  "homepage": "https://github.com/Fortunehugo/recettetp#readme"
+}
